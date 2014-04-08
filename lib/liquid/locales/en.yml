@@ -20,3 +20,6 @@
       tag_never_closed: "'%{block_name}' tag was never closed"
       meta_syntax_error: "Liquid syntax error: #{e.message}"
       table_row: "Syntax Error in 'table_row loop' - Valid syntax: table_row [item] in [collection] cols=3"
+      extends: "Syntax Error in 'extends' - Valid syntax: extends [template]"
+      block: "Syntax Error in 'block' - Valid syntax: block [name]"
+
